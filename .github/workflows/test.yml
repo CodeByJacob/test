@@ -14,5 +14,3 @@ jobs:
           HELLO: "__hello__"
         with:
           input_file: text.txt
-
-
