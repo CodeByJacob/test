@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: CodeByJacob/replacePlaceholders@main
-        env:
-          HELLO: "__hello__"
-        with:
-          input_file: text.txt
+        # env:
+        #   HELLO: "__hello__"
+        # with:
+        #   input_file: text.txt
