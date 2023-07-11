@@ -15,5 +15,3 @@ jobs:
         uses: CodeByJacob/replacePlaceholders@main
         with:
           input_file: text.txt
-          prefix: '#{'  # Specify the desired prefix
-          suffix: '}'   # Specify the desired suffix
