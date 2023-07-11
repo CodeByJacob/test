@@ -17,3 +17,7 @@ jobs:
           file: text.txt
         env: 
           HELLO: "__hello_world__"
+
+      - name: Check content
+        run: cat text.txt
+        shell: bash
