@@ -12,5 +12,6 @@ jobs:
       - uses: CodeByJacob/replacePlaceholders@main
         env:
           HELLO: "__hello__"
+          world: "world"
         with:
           input_file: text.txt
