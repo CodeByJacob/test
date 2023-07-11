@@ -14,4 +14,4 @@ jobs:
       - name: Replace tokens
         uses: CodeByJacob/replacePlaceholders@main
         with:
-          input_file: text.txt
+          file: text.txt
