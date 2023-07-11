@@ -9,9 +9,11 @@ jobs:
   other:
     runs-on: ubuntu-latest
     steps:
-      - uses: CodeByJacob/replacePlaceholders@main
-        env:
-          HELLO: "__hello__"
-          world: "world"
+      - uses: actions/checkout@v2
+
+      - name: Replace tokens
+        uses: CodeByJacob/replacePlaceholders@main
         with:
           input_file: text.txt
+          prefix: '#{'  # Specify the desired prefix
+          suffix: '}'   # Specify the desired suffix
