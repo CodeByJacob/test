@@ -1,0 +1,10 @@
+{
+    "filename": "#{HELLO}#",
+    "random_tab": [
+        "test_",
+        "#{TEST}#"
+    ],
+    "diction": {
+        "nested": "nested_value_#{WORLD}#"
+    }
+}
